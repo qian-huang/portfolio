@@ -15,6 +15,8 @@
 
   <!--Description-->
   
+      <meta name="description" content="OVERVIEWQualtrics Closed-Loop Follow-up is a ticketing tool to keep track of customer survey responses characteristics like NPS Detractors etc. And it">
+  
 
   <!--Author-->
   
@@ -56,6 +58,10 @@
         </li>
       
         <li class="nav-item">
+          <a class="nav-link" href="/illustrations">Illustrations</a>
+        </li>
+      
+        <li class="nav-item">
           <a class="nav-link" href="https://www.instagram.com/sophieyamapi/">Instagram</a>
         </li>
       
@@ -71,8 +77,54 @@
 
             <div class="row">
                 <h1 class="div-center">Qualtrics Closed-Loop Follow-Up</h1>
-<div class="col-12 col-lg-9 offset-lg-2 mt-4 portfolio-content">
-    
+<div class="col-12 col-sm-10 offset-sm-1 mt-4 portfolio-content">
+    <p><img src="/images/tickets-inner-06.png" width="100%" height="75%"></p>
+<h2 id="OVERVIEW"><a href="#OVERVIEW" class="headerlink" title="OVERVIEW"></a>OVERVIEW</h2><p>Qualtrics Closed-Loop Follow-up is a ticketing tool to keep track of customer survey responses characteristics like NPS Detractors etc. And it allows you to follow up on every customer response so nothing falls through the cracks. Learn more on <a href="https://www.qualtrics.com/innovation-exchange/closed-loop-follow-up/" target="_blank">Qualtrics Closed-Loop Follow-Up</a>.</p>
+<p><br></p>
+<h2 id="ROLE"><a href="#ROLE" class="headerlink" title="ROLE"></a>ROLE</h2><ul>
+<li>Led the design from end to end;</li>
+<li>Led the planning and scope definition;</li>
+<li>Worked with UX Researcher and Client Success team on usability research and customer validation.</li>
+</ul>
+<p><br></p>
+<h2 id="SCOPE"><a href="#SCOPE" class="headerlink" title="SCOPE"></a>SCOPE</h2><p><img src="/images/Original-01.png" width="48%" height="48%"> <img src="/images/Original-02.png" width="48%" height="48%"></p>
+<p>We knew the major usability issues and an overhaul of the current app was necessary. But it’s still important to define the scope and identify what is working and what is not. I took a closer look at our backlogged customer feedback and previous research findings. Meanwhile, some customer baseline research were conducted to get a better idea of the user workflows and customer expectations. The problems are summarized in the following list:</p>
+<ul>
+<li>Disconnected Workflow<blockquote>
+<p>“ I have 500 tickets. But your widget only displays 5 per page.<br>“ Why separate the ticket list and its details? I have to scroll back and forth to switch tickets when reviewing the actual ticket details.</p>
+</blockquote>
+</li>
+</ul>
+<p>The widgets layout along with the separation of ticket list and ticket details view led to a fractured experience and decreased the close-loop efficiency.</p>
+<ul>
+<li><p>Scalability<br>Most of the features were planted in the confined widget structure without systematically designed, which caused challenge to introduce new features and create a unified consistent user experience.</p>
+</li>
+<li><p>Inconsistency with UX guidelines<br>The V1 app was built by few engineers before I joined. Due to a lack of design support, the UI wasn’t carefully crafted upon our design pattern library.</p>
+</li>
+</ul>
+<p><br></p>
+<h2 id="EXPLORE"><a href="#EXPLORE" class="headerlink" title="EXPLORE"></a>EXPLORE</h2><p>With the scope in mind, I started exploring different layout structure concepts. Here are the two wireframes we decided to test with:</p>
+<p><strong>A.</strong> Full-width ticket list table with the ticket details page covering it once a ticket is clicked.</p>
+<p><strong>B.</strong> Full-width ticket list table with the ticket details as a side panel coming out once a ticket is clicked.<br><img src="/images/Wireframes-01-1.png" width="33%" height="33%"> <img src="/images/Wireframes-01-1.png" width="33%" height="33%"> <img src="/images/Wireframes-01-1.png" width="33%" height="33%"></p>
+<p>The testing results showed that users liked a full-width ticket details page rather than a side panel in a sense that more information becomes consumable at one view. However, the idea of covering ticket list with ticket details page was not liked because switching ticket details page requires an extra click to go back to the ticket list first.</p>
+<p>All in all, users desired a single scrolling experience when reviewing the actual ticket details. With that, I went back to iterate. <strong>We settled down on the full-width tickets accordion concept with ticket details as the click-to-expand content.</strong></p>
+<p><img src="/images/Web-1280-–-1.png" width="48%" height="48%"> <img src="/images/Web-1280-–-2.png" width="48%" height="48%"></p>
+<p><br></p>
+<h2 id="JOURNEY-TO-FINAL-DESIGN"><a href="#JOURNEY-TO-FINAL-DESIGN" class="headerlink" title="JOURNEY TO FINAL DESIGN"></a>JOURNEY TO FINAL DESIGN</h2><p>After the structure was decided, I dived into detailed modules and visual treatment design. There are way more than I can cover here. I’m going to talk about few touchpoints: Ticket List; Ticket Data; Ticket Metrics. Contact me if you want to know more.</p>
+<p><br></p>
+<h3 id="Ticket-List"><a href="#Ticket-List" class="headerlink" title="Ticket List"></a>Ticket List</h3><p>Users liked the ticket list as a table-view in the original V1 app, which provides the flexibility and freedom to show/hide the tickets related information by adding/removing columns. We decided to bring a similar table-view to the new design to avoid the legacy issues. Meanwhile, users can still customize what information gets to display in each column.</p>
+<p><img src="/images/ticket-list.png" width="100%" height="75%"><br><img src="/images/customize-ticket-format.png" width="100%" height="75%"></p>
+<p><br></p>
+<h3 id="Ticket-Data"><a href="#Ticket-Data" class="headerlink" title="Ticket Data"></a>Ticket Data</h3><p>Ticket Data is the associated survey metadata plugged into the ticket to provide operators more context when they follow up wit their customers. It’s important information and usually set up by the operation manager who oversees the whole Follow-up app. We aimed to make Ticket Data scannable. Instead of plain text, each ticket data is formatted like a tag with its data field name highlighted.</p>
+<p><img src="/images/Screen-Shot-2017-05-22-at-10.37.54-PM.png" width="100%" height="100%"></p>
+<p><br></p>
+<h3 id="Ticket-Metrics"><a href="#Ticket-Metrics" class="headerlink" title="Ticket Metrics"></a>Ticket Metrics</h3><p>Initially, I designed some basic ticket operation metrics for helping users understand and keep an eye on their close-loop and follow-up performance.</p>
+<p><img src="/images/metrics-03.png" width="100%" height="100%"></p>
+<p>This is just a start. Soon we realized these metrics are far from enough for helping track performance and coach operators based on the metrics. Thus we brought in Follow-Up Reporting, which allows users to report on any tickets related metrics from ticket data to performance activities by using Vocalize Dashboarding functionalities (Check my Vocalize Dashboard work).</p>
+<p><img src="/images/Tickets-Reporting-07.png" width="100%" height="100%"></p>
+<p><br></p>
+<h2 id="RESULTS"><a href="#RESULTS" class="headerlink" title="RESULTS"></a>RESULTS</h2><p>After the new Follow-Up app released, <strong>we kept a 150% increase of the amount of tickets created and total active tickets in the following quarters.</strong></p>
+
 </div>
 
 
