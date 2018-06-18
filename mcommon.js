@@ -11,6 +11,9 @@ function decryptAES() {
         } else {
             document.getElementById("encrypt-blog").style.display    = "inline";
             document.getElementById("encrypt-blog").innerHTML        = content;
+
+            document.getElementById("content-footer").style.position = "relative";
+
             document.getElementById("encrypt-message").style.display = "none";
 
             document.getElementById("security").style.display        = "none";
