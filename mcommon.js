@@ -12,8 +12,8 @@ function decryptAES() {
             document.getElementById("encrypt-blog").style.display    = "inline";
             document.getElementById("encrypt-blog").innerHTML        = content;
 
-            document.getElementById("content-footer").style.position = "relative";
 
+            document.getElementById("content-footer").style.position = "relative";
             document.getElementById("encrypt-message").style.display = "none";
 
             document.getElementById("security").style.display        = "none";
@@ -52,6 +52,7 @@ function decodeBase64(content) {
 // add enter to decrypt
 addLoadEvent(function() {
     console.log('register');
+    document.getElementById("content-footer").style.position = "absolute";
     document.getElementById("pass").onkeypress = function(keyPressEvent) {
         console.log(keyPressEvent.keyCode === 13);
         if (keyPressEvent.keyCode === 13) {

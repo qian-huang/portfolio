@@ -181,7 +181,6 @@ h1, h2, h3 {
 .content-footer {
     margin: 5px 65px;
     bottom: 0;
-    position: absolute;
     width: 100%;
     height: 60px;   /* Height of the footer */
 }
