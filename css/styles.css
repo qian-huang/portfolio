@@ -83,7 +83,7 @@ h1, h2, h3 {
     font-size: 14px;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
-    color: rgba(34, 34, 34, 5);
+    color: rgba(34, 34, 34, .5);
     text-transform: none;
     padding-top: 32px;
 }
