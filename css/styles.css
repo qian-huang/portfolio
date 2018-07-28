@@ -80,8 +80,7 @@ h1, h2, h3 {
 .navbar-brand-subtitle {
     font-size: 14px;
     font-weight: 300;
-    color: rgba(34, 34, 34, .5);
-    text-transform: none;
+    color: rgba(34, 34, 34);
     padding-top: 32px;
 }
 

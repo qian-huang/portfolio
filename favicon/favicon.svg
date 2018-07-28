@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sheep-Copy">
+            <rect id="Rectangle-120-Copy-2" stroke="#3C3F44" stroke-width="2" fill="#FFFFFF" transform="translate(11.000000, 10.000000) scale(1, -1) translate(-11.000000, -10.000000) " x="0" y="8" width="22" height="4" rx="2"></rect>
+            <rect id="Rectangle-117" stroke="#3C3F44" stroke-width="2" fill="#FFFFFF" transform="translate(11.000000, 12.000000) scale(1, -1) translate(-11.000000, -12.000000) " x="4" y="2" width="14" height="20" rx="6"></rect>
+            <path d="M17.9953169,4.16905486 C19.1629549,4.57956608 20,5.69203186 20,7 C20,8.65685425 18.6568542,10 17,10 C16.4653478,10 15.963362,9.86013881 15.5286333,9.61500726 C14.9955648,10.4479054 14.0622567,11 13,11 C12.2316456,11 11.5307565,10.7111464 11,10.2361065 C10.4692435,10.7111464 9.76835444,11 9,11 C7.93774331,11 7.00443521,10.4479054 6.47136672,9.61500726 C6.03663803,9.86013881 5.53465218,10 5,10 C3.34314575,10 2,8.65685425 2,7 C2,5.69203186 2.8370451,4.57956608 4.00468311,4.16905486 C4.00157481,4.11309861 4,4.05673321 4,4 C4,2.34314575 5.34314575,1 7,1 C7.53465218,1 8.03663803,1.13986119 8.47136672,1.38499274 C9.00443521,0.552094579 9.93774331,0 11,0 C12.0622567,0 12.9955648,0.552094579 13.5286333,1.38499274 C13.963362,1.13986119 14.4653478,1 15,1 C16.6568542,1 18,2.34314575 18,4 C18,4.05673321 17.9984252,4.11309861 17.9953169,4.16905486 Z" id="Combined-Shape" stroke="#3C3F44" stroke-width="2" fill="#B3BAC3"></path>
+            <rect id="Rectangle-137" fill="#3C3F44" x="9" y="17" width="4" height="2" rx="1"></rect>
+            <rect id="Rectangle-137-Copy" fill="#3C3F44" x="10" y="17" width="2" height="6" rx="1"></rect>
+        </g>
+    </g>
+</svg>
